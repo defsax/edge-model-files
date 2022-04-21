@@ -7,6 +7,8 @@ Module.onRuntimeInitialized = function () {
 export class EdgeImpulseClassifier {
   _initialized = false;
 
+  constructor() {}
+
   init() {
     if (classifierInitialized === true) return Promise.resolve();
 
